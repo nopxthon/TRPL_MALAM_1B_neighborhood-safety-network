@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@font-face {
+    font-family: poppins-semibold;
+    src: url(font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(font/Poppins-Medium.ttf);
+}
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins-bold';
+}
+
+section {
+    background-image: radial-gradient(circle, #3d8a67, #2b7660, #206357, #1a504b, #183d3d);
+    min-height: 100vh;
+}
+
+img {   
+    margin-right: 200px;
+    width: 40vh;
+    height: 40vh;
+     
+}
+.form-box {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 57, 57, 0.33);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 3px 10px rgba(0 ,0 ,0 , 0.5);;
+    height: 615px;
+    border-radius: 20px;
+    display: flex;
+}
+h2{
+    font-size: 2em;
+    color: w;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 50px 0;
+    width: 380px;
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #ffffff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    top: 20px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #183d3d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
