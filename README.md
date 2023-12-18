@@ -21,7 +21,7 @@ Penggunaan bootstrap untuk membantu persoalan letak grid dan memudahkan pada pel
 ## INSTALASI (Cara mengawali dalam pengguaan aplikasi)
 1. Jalankan XAMPP
 2. Clone Repository, dan memastikan berada di lokasi C:\xampp\htdocs\
-3. Buka gitbash lalu ketik git clone https://gitlab.polibatam.ac.id/nopx17/TRPL_MALAM_1B_neighborhood-safety-network.git lalu tekan enter.
+3. Buka gitbash lalu ketik git clone https://github.com/nopxthon/TRPL_MALAM_1B_neighborhood-safety-network.git lalu tekan enter.
 4. Kemudia Import file jagadb.sql kedalam PhpMyAdmin
 5. Ketik pada browser yang dimiliki "localhost/TRPL_MALAM_1B_neighborhood-safety-network
 6. Selamat menggunakannya, Enjoy.
