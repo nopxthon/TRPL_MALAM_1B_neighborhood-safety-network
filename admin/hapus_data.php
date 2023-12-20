@@ -17,7 +17,7 @@ $query = "DELETE FROM laporan WHERE id_laporan = $id_laporan";
 $result = mysqli_query($conn, $query);
 
 if ($result) {
-  echo '<script>alert("Data deleted successfully."); window.location.href = "index0.php";</script>';
+  echo '<script>alert("Laporan Berhasil Dihapus."); window.location.href = "index0.php";</script>';
 } else {
   echo '<script>alert("Failed to delete data. ' . mysqli_error($conn) . '"); window.history.back();</script>';
 }

@@ -17,7 +17,7 @@ $query = "DELETE FROM tim_keamanan WHERE id_keamanan = $id_keamanan";
 $result = mysqli_query($conn, $query);
 
 if ($result) {
-  echo '<script>alert("Data deleted successfully."); window.location.href = "index2.php";</script>';
+  echo '<script>alert("Data Berhasil Dihapus."); window.location.href = "index2.php";</script>';
 } else {
   echo '<script>alert("Failed to delete data. ' . mysqli_error($conn) . '"); window.history.back();</script>';
 }

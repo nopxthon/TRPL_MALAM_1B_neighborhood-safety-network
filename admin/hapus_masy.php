@@ -17,7 +17,7 @@ $query = "DELETE FROM masyarakat WHERE id_user = $id_user";
 $result = mysqli_query($conn, $query);
 
 if ($result) {
-  echo '<script>alert("Data deleted successfully."); window.location.href = "index.php";</script>';
+  echo '<script>alert("Data Berhasil Dihapus."); window.location.href = "index.php";</script>';
 } else {
   echo '<script>alert("Failed to delete data. ' . mysqli_error($conn) . '"); window.history.back();</script>';
 }
